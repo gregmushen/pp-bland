@@ -1,0 +1,16 @@
+# Root-anchored so cmd/<binary>/ source stays tracked.
+/bland-pp-cli
+/bland-pp-cli.exe
+/bland-pp-mcp
+/bland-pp-mcp.exe
+/bin/
+/build/
+/dist/
+
+# Local verification artifacts
+/dogfood-results.json
+/workflow-verify-report.json
+/.manuscripts/
+*.db
+*.db-shm
+*.db-wal
